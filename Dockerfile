@@ -1,5 +1,5 @@
 FROM node:4.4.3-slim
-MAINTAINER Justin Garrison <justinleegarrison@gmail.com>
+MAINTAINER Aditya Raghuwanshi <adi.version1@gmail.com>
 
 # Install CoffeeScript, Hubot
 RUN \
@@ -25,9 +25,9 @@ WORKDIR /home/hubot/bot
 # optionally override variables with docker run -e HUBOT_...
 # Modify ./ENV file to override these options
 ENV HUBOT_OWNER hubot
-ENV HUBOT_NAME hubot
+ENV HUBOT_NAME violetbot
 ENV HUBOT_ADAPTER slack
-ENV HUBOT_DESCRIPTION Just a friendly robot
+ENV HUBOT_DESCRIPTION A simple helpful robot for Violet Grey
 
 # Override adapter with --env-file ENV
 ENTRYPOINT ./hubot-start.sh

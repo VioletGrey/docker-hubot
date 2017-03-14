@@ -1,9 +1,9 @@
 {
-  "name": "bot",
-  "version": "0.0.0",
+  "name": "violetbot",
+  "version": "2.0.0",
   "private": true,
-  "author": "Bot Makers",
-  "description": "slack hubot",
+  "author": "Violet Grey <eng@violetgrey.com>",
+  "description": "A simple helpful robot for Violet Grey",
   "dependencies": {
     "hubot": "^2.11.0",
     "hubot-diagnostics": "0.0.1",
@@ -19,7 +19,15 @@
     "hubot-slack": "^3.2.1",
     "hubot-youtube": "^0.1.2",
     "hubot-fliptable": ">=0.0.0",
-    "hubot-tell": "*"
+    "hubot-tell": "*",
+    "hubot-business-cat": "^1.2.2",
+    "hubot-devops-reactions": "^1.0.2",
+    "hubot-github-create-pullrequests": "^1.1.1",
+    "hubot-soon": "^1.0.0",
+    "hubot-standup-alarm": "0.0.6",
+    "hubot-suggest": "0.0.1",
+    "hubot-sushiyuki": "0.0.10",
+    "hubot-thank-you": "0.0.3"
   },
   "engines": {
     "node": "0.10.x"
