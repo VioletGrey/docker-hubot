@@ -21,7 +21,6 @@
     "hubot-fliptable": ">=0.0.0",
     "hubot-tell": "*",
     "hubot-business-cat": "^1.2.2",
-    "hubot-devops-reactions": "^1.0.2",
     "hubot-github-create-pullrequests": "^1.1.1",
     "hubot-soon": "^1.0.0",
     "hubot-standup-alarm": "0.0.6",
